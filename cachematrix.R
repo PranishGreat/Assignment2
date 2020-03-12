@@ -3,6 +3,7 @@
 
 ## Create a special matrix that can store its inverse as well
 ## to avoid possible repeats of long computations
+
 makeCacheMatrix <- function(x = matrix()) {
 	# Initialize the inverse to NULL
 	invX <- NULL
